@@ -70,7 +70,7 @@ export default function Contact() {
                   style={{ width: "75px", height: "75px" }}
                 ></lord-icon>
 
-                <p className="ctcp1">events.it@rmkec.ac.in</p>
+                <p className="ctcp1">cybernautix24@gmail.com</p>
               </div>
 
               <div className="cttxt">
@@ -80,10 +80,10 @@ export default function Contact() {
                   style={{ width: "75px", height: "75px" }}
                 ></lord-icon>
 
-                <p className="ctcp1">+91 9941165707</p>
+                <p className="ctcp1">+91 6369149644</p>
               </div>
 
-              <a id="bus" href="https://chat.whatsapp.com/DBC6TIRs1nF4dbCEp9xzeY" target="_blank">
+              <a id="bus" href="https://chat.whatsapp.com/Dhqs8V436hx4IEgDaQmQNR" target="_blank">
               <div className="cttxt">
                 <lord-icon
                   id="lob"
