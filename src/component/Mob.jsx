@@ -50,7 +50,7 @@ export default function Mob() {
             <BottomNavigationAction label="Contact" icon={<ContactPageIcon />} component={Link} to="/contactus" />
             <BottomNavigationAction label="Events" icon={<EmojiEventsIcon />} component={Link} to="/events" />
             <BottomNavigationAction label="Register" icon={<HowToRegIcon />} component={Link} to="/register"/>
-            <BottomNavigationAction label="Bus Route" icon={<DirectionsBusFilledIcon />} component={Link} to="/bus"/>
+            <BottomNavigationAction label="Bus" icon={<DirectionsBusFilledIcon />} component={Link} to="/bus"/>
 
           </BottomNavigation>
 

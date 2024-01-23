@@ -85,7 +85,7 @@ export default function Home() {
   <div className="wrap" style={{ marginRight: '20px' }}>
     <Link to="/register" style={{ textDecoration: 'none' }}>
       <div className="wrap">
-        <button className="button" style={{ marginTop: '2%', padding: '10px', width: '250px' }}> Register </button>
+        <button className="button" style={{ marginTop: '2%',marginBottom:'3%', padding: '10px', width: '180px' }}> Register </button>
       </div>
     </Link>
   </div>
@@ -93,7 +93,7 @@ export default function Home() {
   <div className="wrap">
     <Link to="/login" style={{ textDecoration: 'none' }}>
       <div className="wrap">
-        <button className="button" style={{ marginTop: '2%', padding: '10px', width: '250px' }}> Login </button>
+        <button className="button" style={{ marginTop: '2%',marginBottom:'3%', padding: '10px', width: '180px' }}> Login </button>
       </div>
     </Link>
   </div>
