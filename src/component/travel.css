@@ -1,0 +1,135 @@
+.gradient-text {
+    background-image: linear-gradient(180deg, #04AAF8 0%, #C576F6 70.31%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.gt {
+    font-size: 35px;
+}
+
+.cb {
+
+    margin: 100px;
+    background-color: #1f1f1f;
+    padding: 40px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.ul ,.h5 {
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+    word-break: keep-all;
+}
+
+.evebtn{
+    padding: 20px !important;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card{
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+
+}
+.txt{
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 18px;
+    width: 700px;
+}
+.dbtn1{
+    background-image: linear-gradient(to right, #24FE41  0%, #24FE41  51%,#24FE41  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 6px 6px 60px rgba(4, 248, 53, 0.2);
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+
+}
+.dbtn1:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px #eee;
+
+}
+
+.c{
+    width : 600px;
+}
+
+.pad{
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 4%;
+}
+
+
+
+@media only screen and (max-width:640px) {
+    
+    .txt{
+        width: 300px;
+    }    
+
+    .c{
+        width: 300px !important;
+    }
+
+    .cb{
+        margin: unset;
+    background-color: unset;
+    padding:unset;
+    text-align: unset;
+    border-radius:unset;
+        
+    }    
+    .ul, .h5 {
+        color: unset;
+        padding: unset;
+        font-size: unset;
+        word-break: unset;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .h5{
+        border: 1px solid #c8cdd0;
+        margin-top: 5%;
+        font-family: "Sofia", sans-serif;
+        color: #24FE41;
+    }
+    h4.card-title.gradient-text {
+        margin-left: 10px;
+    }
+    #hod{
+        
+        height: 60px;
+        opacity: 0;
+    }
+    
+  }
+
+  #hod{
+    opacity: 0;
+  }
+  .ul, .h5{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }

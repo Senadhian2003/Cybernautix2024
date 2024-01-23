@@ -1,0 +1,36 @@
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 650px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the width */
+    margin-top: 10vh; /* Adjust as needed */
+    margin-bottom: 10vh; /* Adjust as needed */
+    /* Neon green border effect */
+    box-shadow: 0 0 15px 5px #078407;
+    color:white
+  }
+
+  .container2{
+    padding-top: 10px;
+    font-size: medium;
+  }
+  p{
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: semi-bold;
+  }
+
+  .btn{
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    border:3px solid rgba(255, 255, 255, 0.5);;
+    color:white;
+    font-weight: bold;
+  }

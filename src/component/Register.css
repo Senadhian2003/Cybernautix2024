@@ -1,0 +1,137 @@
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 650px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the width */
+    margin-top: 10vh; /* Adjust as needed */
+    margin-bottom: 10vh; /* Adjust as needed */
+    /* Neon green border effect */
+    box-shadow: 0 0 15px 5px #078407;
+  }
+
+  
+  
+  .transparent-input {
+    background-color: rgba(24, 24, 24, 0.508);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    color: white; 
+  }
+  
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .container1 {
+      width: 80%;
+    }
+  }
+
+  
+  form {
+    width: 85%;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color:white;
+  }
+  
+  .custom-control {
+    margin-top: 10px;
+  }
+  
+ 
+  .mb-3{
+    color:white;
+  }
+.mb-4{
+    color:white;
+  }
+
+  legend{
+    font-weight: bold;
+  }
+
+  .btn{
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    border:3px solid rgba(255, 255, 255, 0.5);;
+    color:white;
+    font-weight: bold;
+  }
+  .center-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+  }
+  .btn:hover{
+    background-color: rgba(22, 185, 22, 0.5);
+    box-shadow: 0 0 5px 3px rgba(22, 185, 22, 0.5) ;
+    color:white;
+  }
+
+  .form-check-input {
+    background-color: rgba(241, 245, 244, 0.801); 
+  }
+
+/* Styling for radio buttons */
+.form-check-input:checked {
+    background-color: #078407; 
+    border-color: #078407; 
+    box-shadow: 0 0 0 1px #078407; 
+  }
+  
+  /* Styling for radio labels (optional) */
+  .form-check-label {
+    color: #000; 
+  }
+
+  .alert-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border:2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .alert-content {
+    text-align: center;
+  }
+  
+  .alert-content p {
+    margin-bottom: 10px;
+  }
+  
+  .alert-content button {
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    border:none;
+    border-radius: 3px;
+    color:black;
+    font-weight: bold;
+  }
+  .alert-content button:hover{
+    background-color: rgba(22, 185, 22, 0.5);
+    box-shadow: 0 0 5px 3px rgba(22, 185, 22, 0.5) ;
+    color:white;
+  }
+  
+  

@@ -1,0 +1,191 @@
+.cd1 {
+  height: 500px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cd2 {
+  height: 500px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cp1 {
+  color: white;
+  font-size: 30px;
+
+  text-align: center;
+  font-variant: small-caps;
+}
+.map {
+  height: 500px;
+  width: 500px;
+  border-radius: 10px;
+  margin-top: 4%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cttxt {
+  display: flex;
+  margin-top: 7%;
+}
+.ctcp1 {
+  margin-left: 4%;
+  font-size: 25px;
+  color: white;
+  margin-top: 2%;
+}
+.ctcont1 {
+  margin-top: 13%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hover-fx {
+  font-size: 36px;
+  display: inline-block;
+  cursor: pointer;
+  margin: 15px;
+  width: 90px;
+  height: 80px;
+  line-height: 84px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  color: rgb(255, 255, 255);
+  background-color: rgba(211, 211, 211, 0.299);
+  transition: 300ms;
+  margin-top: 1%;
+}
+
+.hover-fx:after {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  content: "";
+  box-sizing: content-box;
+
+  box-shadow: 0px 0px 0px 3px rgba(4, 170, 248, 0.9);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 300ms;
+}
+
+.hover-fx:hover {
+  background-color: rgba(4, 170, 248, 0.9);
+  color: #ffffff;
+  box-shadow: 1px 1px 1px 1px #1cb5ad;
+}
+
+.hover-fx:hover:after {
+  opacity: 1;
+  transform: scale(1.15);
+}
+.bi {
+  width: 100px;
+  margin-left: -7%;
+  margin-top: -10%;
+}
+
+.loader {
+  margin-left: 100px;
+  margin-top: 70px;
+  position: absolute;
+}
+
+@media only screen and (max-width: 991px) {
+  .map {
+    height: 350px;
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+  }
+  .ctcp1 {
+    margin-left: 4%;
+    font-size: 19px;
+    color: white;
+    width: fit-content;
+    height: 100%;
+  }
+
+  .cd1 {
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ctcont1 {
+    margin-top: 0;
+    margin-left: 5%;
+    margin-right: auto;
+  }
+
+  .hover-fx {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .cttxt {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .loader {
+    margin-left: 50px;
+    margin-top: 70px;
+    position: absolute;
+  }
+}
+lord-icon {
+  margin-top: -2%;
+  height: 100px;
+  width: 100px;
+}
+@media only screen and (max-width: 600px) {
+  lord-icon {
+    margin-top: -5%;
+    height: 75px;
+    width: 75px;
+  }
+  lord-icon#loc {
+   
+  
+  }
+
+  .loader {
+    margin-left: 55px;
+    margin-top: 70px;
+    position: absolute;
+  }
+
+  .cd2{
+    height:35%;
+  }
+}
+p.ctcp1.header {
+  margin-left: -1%;
+}
+div#cont {
+  margin-top: 15%;
+}
+
+.cttxt {
+  display: flex;
+  margin-top: 0%;
+  padding-top: 0%;
+}
+
+a#bus {
+  text-decoration: none;
+}
+lord-icon#loc {
+  height: 75px !important;
+  width: 75px !important;
+  padding: 13px 74px 1px 1px;
+}
+lord-icon#lob {
+  padding: 14px 67px 1px 1px;
+}

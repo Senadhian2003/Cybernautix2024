@@ -1,0 +1,230 @@
+.eh1{
+
+  text-align: center;
+  font-family: space;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 61px;
+  color: #FFFFFF;
+  padding-bottom: 3%;
+  font-variant: small-caps;
+
+}
+
+.para{
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 61px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.image{
+    width: 165px;
+    height: 124px;
+    margin-left: auto;
+    margin-right: auto  ;
+}
+
+.card{
+    background: rgba(0, 0, 0, 0.4);
+
+border-radius: 30px;
+
+}
+
+.ctxt{
+    background: #C576F6;
+background: linear-gradient(to right, #C576F6 21%, #04AAF8 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 30px;
+}
+
+.grid{
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* .grid1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: px;
+    content: url(../image/tech1.jpg);
+}     */
+
+/* .row{
+    padding-bottom: 4%;
+} */
+.circle-1 {
+    width:250px !important;
+    height:250px !important;
+    border-radius: 50%;
+    border:5px solid #00FF66;
+    box-shadow: 6px 6px 60px rgba(4, 248, 53, 0.4);
+    
+    opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+}
+.evename{
+   
+    margin-top: -170px;
+    color: #FFFFFF;
+    opacity: 0;
+}
+
+.evename:hover{
+   
+}
+
+  
+
+  
+  /* .circle-1:hover img {
+    transform: scale(2.1);
+   -ms-transform: scale(1.1); 
+   -webkit-transform: scale(1.1);
+     box-shadow: 2px 2px 2px #4b4b4b;
+     opacity: 1;
+   } */
+  .circle-1 img {
+    width:250px ;
+    height: 250px ;
+    border-radius: 50%;
+    cursor:pointer;
+    margin-left: 0.1px;
+    margin-top: -0.1px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    backface-visibility: hidden;
+  }
+  .circle-1:hover{
+    box-shadow: 6px 6px 60px #00FF66;
+  
+  }
+
+  .circle-1:hover img {
+    opacity: 0.3;
+    
+   
+
+}
+
+.circle-1:hover .evename {
+    opacity: 1;
+    color: white;
+    text-align: center;
+}
+
+.link{
+  text-decoration: none;
+}
+
+
+@media only screen and (max-width:740px) {
+  
+    
+  .circle-1 {
+    width:150px !important;
+    height:150px !important;
+    border:5px solid #00FF66;   
+}
+
+  .pad{
+
+  }
+
+  .evename{
+    opacity: 1;
+    color: white;
+    text-align: center;
+    position: absolute;
+   
+    font-size: 20px ;
+    
+  }
+
+  img{
+    opacity: 0.3;
+  }
+  .align{
+    margin-top: 70px;
+    margin-left: 35px;
+  }
+ 
+  
+}
+@media only screen and (max-width: 600px) {
+
+  .col-sm-6.col-md-6.col-lg-2.pad {
+    height: 220px;
+}
+
+img#calender{
+  opacity: 0.9;
+}
+h2#pp {
+    margin-left: -5%;
+}
+h2#TH {
+  margin-left: -7%;
+  margin-top: -46%;
+}
+h2#OC {
+  margin-left: -3%;
+}
+
+h2#Con {
+  margin-left: -8%;
+    margin-top: -41%;
+}
+
+.evename {
+  color: rgba(255,255,255,0.4);
+}
+.eh1{
+  margin-top: 7%;
+}
+.gradient-text{
+  margin-top: 7%;
+}
+
+
+
+}
+#Con {
+  margin-top: -58%;
+}
+#TH {
+  margin-top: -60%;
+}
+
+svg.whatsapp {
+  height: 30px;
+  width: 30px;
+  margin-right: 4%;
+}
+
+
+
+
+
+
+
+
+

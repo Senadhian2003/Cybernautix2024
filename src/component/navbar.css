@@ -1,0 +1,30 @@
+.hp1{
+    background: linear-gradient(#00FF66 0 0) 
+    bottom left/
+    var(--underline-width, 0%) 0.1em
+    no-repeat;
+  color:white;
+  display: inline-block;
+  padding: 0 .5em 0.2em;
+  text-decoration: none;
+  transition: background-size 0.5s;
+}
+
+.hp1:hover {
+    --underline-width: 100%;
+}
+
+.navbar-toggler{
+  outline: none;
+    border: none;
+    box-shadow: none;
+    opacity: 1;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
