@@ -33,7 +33,7 @@ export default function Events() {
               <Link to="/events/1" className="link">
                 <div className="grid circle-1">
                   <img src={image5} alt="" />
-                  <div className="align"><h2 id="pp" className="evename">
+                  <div className="align"><h2 id="bb" className="evename">
                     Blitz <br /> Byte                  </h2></div>
                   
                 </div>
@@ -92,7 +92,7 @@ export default function Events() {
               <Link to="/events/5" className="link">
                 <div className="grid circle-1">
                   <img src={pixplay} alt="" />
-                  <div className="align"><h2 id="OC" className="evename">
+                  <div className="align"><h2 id="fc" className="evename">
                     Pixel <br /> Playground
                   </h2></div>
                   
@@ -160,7 +160,7 @@ export default function Events() {
               <Link to="/events/8" className="link">
                 <div className="grid circle-1">
                   <img src={smirk} alt="" />
-                  <div className="align"><h2 id="Con" className="evename">
+                  <div className="align"><h2 id="smirk" className="evename">
                     *Smirk*
                   </h2></div>
                   

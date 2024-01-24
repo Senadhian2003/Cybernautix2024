@@ -179,20 +179,32 @@ img#calender{
   opacity: 0.9;
 }
 h2#pp {
-    margin-left: -5%;
+    margin-left: 2%;
+}
+h2#bb {
+  margin-left: 3%;
 }
 h2#TH {
   margin-left: -7%;
   margin-top: -46%;
 }
 h2#OC {
+  margin-left: 3%;
+}
+h2#fc {
   margin-left: -3%;
 }
 
 h2#Con {
-  margin-left: -8%;
+  margin-left: -4%;
     margin-top: -41%;
 }
+
+h2#smirk {
+ 
+    margin-top: -41%;
+}
+
 
 .evename {
   color: rgba(255,255,255,0.4);
