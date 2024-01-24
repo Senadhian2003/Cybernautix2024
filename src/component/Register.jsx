@@ -176,6 +176,8 @@ const Register = () => {
     lexiCharm: formData.lexiCharm,
     conTacTix : formData.conTacTix,
     smirk:formData.smirk,
+    technicalEvents:formData.technicalEvents,
+    nonTechnicalEvents:formData.nonTechnicalEvents
       });
 
       console.log('Form data submitted to Firebase:', formData);

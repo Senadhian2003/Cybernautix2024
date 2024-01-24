@@ -2,10 +2,14 @@ import React, { useEffect, useState } from 'react';
 import { getDatabase, ref, get } from 'firebase/database';
 import { useParams } from 'react-router-dom'; // Updated import
 import Navigation from './component/navbar';
+import html2pdf from 'html2pdf.js';
+import jsPDF from 'jspdf';
+import html2canvas from 'html2canvas';
 
 const UserDetails = () => {
   const [userDetails, setUserDetails] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [printing, setPrinting] = useState(false);
   const { userId } = useParams(); // Updated line
   // const queryParams = new URLSearchParams(location.search);
   // const email = queryParams.get('email');
@@ -52,18 +56,37 @@ const UserDetails = () => {
     fetchUserDetails();
   }, [userId]);
 
-  const handleDownload = () => {
-    window.print();
-  };
+ 
+
+  const downloadPDF = async() => {
+    setPrinting(true);
+  
+    const element = document.getElementById('regDetails');
+    if (!element) {
+      console.error('Page container not found');
+      return;
+    }
+  
+    await html2pdf(element).then(() => {
+      setPrinting(false);
+    });
+  };
+  
+
+
 
   return (
-    <div>
+    <div >
       <Navigation />
-      <div className="container1 mt-4">
+      <p className="txt" style={{color:"white"}}>
+          Please print these details, you will be requested to show this pdf on the symposium events.
+        </p>
+      <div className="container1 mt-4" >
         <h2>UserDetails</h2>
         {loading && <p>Loading...</p>}
         {!loading && userDetails ? (
-          <div>
+          <div id='regDetails'>
+            <h3 style={{textAlign:"center"}}> {printing?"Cybernautix":""}</h3>
             <p>ID: {userDetails.id}</p>
             <p>Name: {userDetails.name}</p>
             <p>College: {userDetails.college}</p>
@@ -76,7 +99,7 @@ const UserDetails = () => {
         ) : (
           <p>User details not found</p>
         )}
-        <button className='btn' onClick={handleDownload}>Print</button>
+        <button className='btn' onClick={downloadPDF}>Print</button>
       </div>
     </div>
   );

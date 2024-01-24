@@ -32,7 +32,7 @@ export default function Navigation() {
 
         <Navbar expand="xxl"  variant="dark">
       <Container fluid>
-        <Navbar.Brand  href="/contactus"><img className="hed-img" src="https://github.com/nitinmano/image-store/blob/main/CYBERNAUTIX.png?raw=true" className="hlogo"/></Navbar.Brand>
+        <Navbar.Brand  href="/contactus"><img className="hed-img hlogo" src="https://github.com/nitinmano/image-store/blob/main/CYBERNAUTIX.png?raw=true" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-xxl`}
@@ -47,6 +47,7 @@ export default function Navigation() {
             <Nav.Link href="/"><span className='hp1'>Home</span></Nav.Link>
             <Nav.Link href="/events"><span className='hp1'>Events</span></Nav.Link>
             <Nav.Link href="/register"><span className='hp1'>Register</span></Nav.Link>
+            <Nav.Link href="/login"><span className='hp1'>Login</span></Nav.Link>
             <Nav.Link href="/contactus"><span className='hp1'>Contact</span></Nav.Link>
             <Nav.Link href="/bus"><span className='hp1'>Bus</span></Nav.Link>
 
