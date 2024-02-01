@@ -28,7 +28,7 @@ export default function Events() {
        
           <div class="row justify-content-centre">
           
-            <div class="col-sm-6 col-md-6 col-lg-4 pad ">
+            <div class="col-sm-6 col-md-6 col-lg-3 pad ">
             <Fade left >
               <Link to="/events/1" className="link">
                 <div className="grid circle-1">
@@ -41,23 +41,11 @@ export default function Events() {
               </Fade>
             </div>
 
-            <div class="col-sm-6 col-md-6 col-lg-4 pad ">
-            <Fade left >
-              <Link to="/events/2" className="link">
-                <div className="grid circle-1">
-                  <img src={image3} alt="" />
-                  <div className="align"><h2 className="evename">
-                    U <br /> Xplorer
-                  </h2></div>
-                  
-                </div>
-              </Link>
-              </Fade>
-            </div>
+            
 
             
 
-            <div class="col-sm-6 col-md-6 col-lg-4 pad">
+            <div class="col-sm-6 col-md-6 col-lg-3 pad">
             <Fade left >
               <Link to="/events/3" className="link">
                 <div className="grid circle-1">
@@ -71,7 +59,7 @@ export default function Events() {
               </Fade>
             </div>
 
-            <div class="col-sm-6 col-md-6 col-lg-7 pad ">
+            <div class="col-sm-6 col-md-6 col-lg-3 pad ">
             <Fade left >
               <Link to="/events/4" className="link">
                 <div className="grid circle-1">
@@ -87,13 +75,13 @@ export default function Events() {
 
             
 
-            <div class="col-sm-6 col-md-6 col-lg-2 pad  ">
+            <div class="col-sm-6 col-md-6 col-lg-3 pad  ">
             <Fade left >
               <Link to="/events/5" className="link">
                 <div className="grid circle-1">
                   <img src={pixplay} alt="" />
                   <div className="align"><h2 id="fc" className="evename">
-                    Pixel <br /> Playground
+                    Pixel <br /> Studio
                   </h2></div>
                   
                 </div>
@@ -132,7 +120,7 @@ export default function Events() {
                 <div className="grid circle-1">
                   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3paPAOQWBgA6t7h1vtxM1St60j72QeqyxjA077KHLB3bIi387G2XCjGfF1o-VOiiuuX0&usqp=CAU" alt="" />
                   <div className="align"><h2 id="pp" className="evename">
-                    Lixi <br /> Charm                  </h2></div>
+                    Lexi <br /> Charm                  </h2></div>
                   
                 </div>
               </Link>

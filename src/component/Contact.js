@@ -70,7 +70,7 @@ export default function Contact() {
                   style={{ width: "75px", height: "75px" }}
                 ></lord-icon>
 
-                <p className="ctcp1">cybernautix24@gmail.com</p>
+                <p className="ctcp1">cybernautix@rmkec.ac.in</p>
               </div>
 
               <div className="cttxt">

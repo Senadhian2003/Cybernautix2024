@@ -33,7 +33,7 @@ const Register = () => {
     password: '',
     confirmPassword: '',
     email: '',
-    blitzbyte: 0,
+    blitzByte: 0,
     uXplore : 0,
     paperPinnacle: 0,
     webVortex : 0,
@@ -168,7 +168,7 @@ const Register = () => {
         email: formData.email,
         password: formData.password, // Note: You may want to avoid storing passwords in plain text
         confirmPassword: formData.confirmPassword,
-        blitzbyte: formData.blitzbyte,
+        blitzbyte: formData.blitzByte,
     uXplore : formData.uXplore,
     paperPinnacle: formData.paperPinnacle,
     webVortex : formData.webVortex,
@@ -275,24 +275,15 @@ const Register = () => {
               />
               BlitzByte
             </div>
+          
             <div className="form-check">
-              <input
-                type="checkbox"
-                className="form-check-input"
-                name="technicalEvent"
-                value="uXplorer"
-                onChange={handleTechnicalEventChange}
-              />
-              UXplorer
-            </div>
-            <div className="form-check">
-              <input type="checkbox" className="form-check-input" name="technicalEvent" value="paperPinnacle" onChange={handleTechnicalEventChange} /> PaperPinnacle
+              <input type="checkbox" className="form-check-input" name="technicalEvent" value="paperPinnacle" onChange={handleTechnicalEventChange} /> Paper Pinnacle
             </div>
             <div className="form-check">
               <input type="checkbox" className="form-check-input" name="technicalEvent" value="webVortex" onChange={handleTechnicalEventChange} />  WebVortex
             </div>
             <div className="form-check">
-              <input type="checkbox" className="form-check-input" name="technicalEvent" value="pixelPlayground" onChange={handleTechnicalEventChange} /> PixelPlayground
+              <input type="checkbox" className="form-check-input" name="technicalEvent" value="pixelPlayground" onChange={handleTechnicalEventChange} /> Pixel Studio
             </div>
           </fieldset>
 
